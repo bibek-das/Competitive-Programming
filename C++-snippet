@@ -1,0 +1,37 @@
+//Adonis!!
+#include<bits/stdc++.h>
+using namespace std;
+ 
+#define ll              long long
+#define endl            '\n'
+ 
+#define vi              vector<int>
+#define vll             vector<long long>
+#define vpi             vector<pair<int,int>>
+ 
+#define pb              push_back
+#define mn(v)           *min_element(v.begin(),v.end())
+#define mx(v)           *max_element(v.begin(),v.end())
+#define all(v)          v.begin(),v.end()
+#define srt(s)          sort(s.begin(),s.end())
+#define rsrt(s)         sort(s.rbegin(),s.rend())
+#define fo(i,a,n)       for(int i = a; i < n; i++)
+ 
+#define testcase(t)     int t; cin >> t; for(int i = 1; i <= t; i++)
+    
+ 
+void solve(){
+
+
+}
+ 
+int main()
+{
+    ios_base::sync_with_stdio(false);
+    cin.tie(NULL);
+ 
+    testcase(t)
+        solve();
+
+    return 0;
+}
