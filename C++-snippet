@@ -4,28 +4,31 @@ using namespace std;
  
 #define ll              long long
 #define endl            '\n'
-  
+ 
 #define pb              push_back
 #define all(v)          v.begin(),v.end()
 #define srt(s)          sort(s.begin(),s.end())
 #define rsrt(s)         sort(s.rbegin(),s.rend())
 #define fo(i,a,n)       for(int i = a; i < n; i++)
  
-#define testcase(t)     int t; cin >> t; for(int i = 1; i <= t; i++)
-    
  
-void solve(){
-
+void solve(int cs){
+ 
+   
 
 }
+ 
  
 int main()
 {
     ios_base::sync_with_stdio(false);
     cin.tie(NULL);
  
-    testcase(t)
-        solve();
-
+    int t = 1, cs = 1;
+    cin >> t;
+    while(t--){
+        solve(cs++);
+    }
+ 
     return 0;
 }
