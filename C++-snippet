@@ -10,9 +10,9 @@ using namespace std;
 #define srt(s)          sort(s.begin(),s.end())
 #define rsrt(s)         sort(s.rbegin(),s.rend())
 #define fo(i,a,n)       for(int i = a; i < n; i++)
-#define mem(a,b)		      memset(a,b,sizeof(a));
+#define mem(a,b)	memset(a,b,sizeof(a));
 #define deb(x)          cerr<<#x<<" :: "<<x<<" "
-#define dnl         	   cerr<<endl
+#define dnl         	cerr<<endl
 
 
 void solve(int cs) {
