@@ -11,26 +11,24 @@ using namespace std;
 #define rsrt(s)         sort(s.rbegin(),s.rend())
 #define fo(i,a,n)       for(int i = a; i < n; i++)
 #define mem(a,b)	memset(a,b,sizeof(a));
-#define deb(x)          cerr<<#x<<" :: "<<x<<" "
+#define deb(x)      	cerr<<#x<<" :: "<<x<<" "
 #define dnl         	cerr<<endl
 
 
 void solve(int cs) {
 
-
-
 }
 
 int main()
 {
-     ios_base::sync_with_stdio(false);
-	    cin.tie(NULL);
+	ios_base::sync_with_stdio(false);
+	cin.tie(NULL);
 
-	    int t = 1, cs = 1;
-	    cin >> t;
-	    while (t--) {
-		       solve(cs++);
-	    }
+	int t = 1, cs = 1;
+	cin >> t;
+	while (t--) {
+		solve(cs++);
+	}
 
-	    return 0;
+	return 0;
 }
